@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    gap: 16px;
+}
+
+.header, .content-1, .footer {
+    background-color: #1f2937;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.title-1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.text-1, .links {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header {
+    font-size:  24px;
+    color: #f9faf8;
+    justify-content: space-evenly;
+}
+
