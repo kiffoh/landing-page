@@ -6,7 +6,7 @@ body {
     text-align: center;
 }
 
-a {
+a, .footer {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
@@ -53,6 +53,8 @@ ul.links {
 
 .container-1 {
     align-items: center;
+    display: flex;
+    justify-content: center;
 }
 .content-1 {
     display: flex;
@@ -92,12 +94,16 @@ img {
 /* Section 2 */
 .container-2 {
     display: flex;
-    justify-content: center;
     gap: 12px;
+    align-items: center;
+    width: 700px;
 }
 
 .content-2 {
     margin: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container-2 img {
@@ -105,14 +111,43 @@ img {
     border-radius: 5px;
 }
 
+.text-2 {
+    font-size: 15px;
+    display: flex;
+}
 /* Section 3 */
 
 .content-3 {
     background-color: #e5e7eb;
-    
+    padding: 16px 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-3, .quote-author {
+    width: 700px;
 }
 
 .text-3 {
-    font: 36px;
-    font-style: light italic;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    
+}
+
+.quote-author {
+    font-weight: bolder;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Section 4 */
+
+
+/* Footer */
+.footer {
+    padding: 26px;
+    display: flex;
+    justify-content: center;
 }
