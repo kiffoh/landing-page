@@ -20,7 +20,7 @@ ul {
     gap: 16px;
 }
 
-.header, .content-1, .footer {
+.header, .container-1, .footer {
     background-color: #1f2937;
     display: flex;
 }
@@ -51,6 +51,9 @@ ul.links {
 
 /* Now completing section 1 */
 
+.container-1 {
+    align-items: center;
+}
 .content-1 {
     display: flex;
     flex-direction: column;
@@ -58,6 +61,16 @@ ul.links {
     
     padding: 32px;
     align-items: center;
+    
+    flex-grow: 1;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+.images {
+    flex-grow: 1;
 }
 
 .button-1 {
@@ -73,4 +86,20 @@ ul.links {
     color: #1f2937;
     display: flex;
     justify-content: center;
+    margin: 16px;
+}
+
+/* Section 2 */
+.container-2 {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.content-2 {
+    margin: 16px;
+}
+
+.container-2 img {
+    border: #3882f6;
 }
