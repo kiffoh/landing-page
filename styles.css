@@ -101,5 +101,18 @@ img {
 }
 
 .container-2 img {
-    border: #3882f6;
+    border: 2px solid #3882f6;
+    border-radius: 5px;
+}
+
+/* Section 3 */
+
+.content-3 {
+    background-color: #e5e7eb;
+    
+}
+
+.text-3 {
+    font: 36px;
+    font-style: light italic;
 }
