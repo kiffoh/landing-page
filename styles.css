@@ -40,10 +40,12 @@ ul.links, .text-1 {
 .logo {
     font-size:  24px;
     color: #f9faf8;
+    font-weight: bold;
 }
 
 .header {
     justify-content: space-around;
+    padding: 8px 0px;
 }
 
 ul.links {
@@ -56,6 +58,7 @@ ul.links {
     align-items: center;
     display: flex;
     justify-content: center;
+    padding: 40px 0px;
 }
 
 
@@ -168,6 +171,38 @@ img {
 
 /* Section 4 */
 
+.content-4 {
+    background-color: #3882f6;
+    margin: 100px 150px;
+    padding: 30px 30px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.container-4 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title-4 {
+    font-weight: bold;
+    color: #f9faf8;
+    margin: 3px 0px;
+}
+
+.text-4 {
+    color: #e5e7eb;
+    margin: 3px 0px;
+}
+
+.button-4 {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-color: #f9faf8;
+    border-radius: 8px;
+    padding: 1px 25px;
+    font-weight: bold;
+}
 
 /* Footer */
 .footer {
